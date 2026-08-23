@@ -83,7 +83,7 @@ Business questions answered directly in the database using aggregate functions, 
 | 5 | Do subscribed customers spend more than non-subscribers? | `GROUP BY subscription_status` with total & average revenue |
 | 6 | Top 5 products with the highest % of purchases using a discount | `CASE WHEN` + `SUM()` for a calculated discount rate |
 
-Full query set available in [`sql/customer_behavior_queries.sql`](sql/customer_behavior_queries.sql).
+Full query set available in [`sql/customer_behavior_queries.sql`](sql/customer_behavior.sql).
 
 ---
 
